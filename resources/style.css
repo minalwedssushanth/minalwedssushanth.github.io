@@ -1,0 +1,53 @@
+html {
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-attachment:fixed;
+    background-size: 640px;
+}
+html{
+    background-image: url(background_fade.jpg);
+}
+html.scrolled1{
+    background-image: url(background2_fade.jpg);
+}
+html.scrolled2{
+    background-image: url(background3_fade.jpg);
+}
+.centered {
+    text-align:center;
+}
+
+#messageline1{
+    font-family: 'Lobster', cursive;
+    font-size: 7.5vw;
+}
+
+@font-face{
+    font-family:ballpark;
+    src:url(ballpark_weiner.ttf);
+}
+@font-face{
+    font-family:reeperbahn;
+    src:url(Reeperbahn.ttf);
+}
+@font-face{
+    font-family:celebration;
+    src:url(JandaCelebrationScript.ttf);
+}
+
+#messageline2, #messageline3{
+    font-family: ballpark;
+    font-size: 7.5vw;
+}
+#messageline4{
+    font-family: reeperbahn;
+    font-size: 10vw;
+}
+#messageline5{
+    font-family: celebration;
+    font-size: 7.5vw;
+}
+@media (max-width:640px) {
+html{
+    background-size:cover;
+}}
