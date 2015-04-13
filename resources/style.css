@@ -5,13 +5,13 @@ html {
     background-size: 640px;
 }
 html{
-    background-image: url(background_fade.jpg);
+    background-image: url(images/background_fade.jpg);
 }
 html.scrolled1{
-    background-image: url(background2_fade.jpg);
+    background-image: url(images/background2_fade.jpg);
 }
 html.scrolled2{
-    background-image: url(background3_fade.jpg);
+    background-image: url(images/background3_fade.jpg);
 }
 .centered {
     text-align:center;
@@ -24,15 +24,15 @@ html.scrolled2{
 
 @font-face{
     font-family:ballpark;
-    src:url(ballpark_weiner.ttf);
+    src:url(fonts/ballpark_weiner.ttf);
 }
 @font-face{
     font-family:reeperbahn;
-    src:url(Reeperbahn.ttf);
+    src:url(fonts/Reeperbahn.ttf);
 }
 @font-face{
     font-family:celebration;
-    src:url(JandaCelebrationScript.ttf);
+    src:url(fonts/JandaCelebrationScript.ttf);
 }
 
 #messageline2, #messageline3{
